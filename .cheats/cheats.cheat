@@ -1,0 +1,6 @@
+
+% default conda activate environment
+
+# Activate default conda environment for this project
+conda activate ez-confluence-hillchart
+

@@ -1,0 +1,17 @@
+
+% tox build tool
+
+# To build your documentation
+tox -e docs
+
+# to build your package distribution
+tox -e build
+
+# to test your project uploads correctly in test.pypi.org
+tox -e publish
+
+# to release your package to PyPI
+tox -e publish -- --repository pypi
+
+# to list all the tasks available
+tox -av
